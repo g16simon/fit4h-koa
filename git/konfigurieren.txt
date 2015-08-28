@@ -1,0 +1,8 @@
+Parameter
+	--global
+	#die Einstellungen gelten für alle git-Anwendungen dieses Users auf diesem Rechner
+
+	git-config --global user.name "g16simon"
+	git-config --global user.email "simonren@g16hh.de"
+
+	git config --global credential.helper 'cache --timeout=36000'

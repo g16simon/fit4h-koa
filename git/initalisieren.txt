@@ -1,0 +1,17 @@
+GITHUB.COM
+  neues Reponsitory anlegen
+
+HOST:
+	mkdir "Ordnername" 
+	cd "Ordnername"
+	git init 								#initalisieren eines neuen git responsitory
+	touch text.txt 					#erzeugen einer neuen Datei
+	git add text.txt 				#Die Datei text.txt wird ins neue resp. aufgenommen
+	git commit -m 'initalisierung' 		
+	#Die neue Datei wird in den Bereich der Dateien geschoben, die mit dem
+	Server synchronisiert werden sollen
+
+	git remote add origin email:username/namedesrespon.git
+	#das lokale Repons. wird mit einem öffentlichen Repons. verbunden; es wird dem bestehenden Github-repons hinzugefügt
+
+	git push -u origin master #die Änderungen die auf dem lokalen repons. durchgeführt werden mit dem Stand auf dem Server verglichen und die neuere Version wird auf den Server kopiert.
