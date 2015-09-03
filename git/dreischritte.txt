@@ -1,0 +1,14 @@
+Drei Schritte zm Aktualisieren:
+
+1. Sicherstellen das Sie in der Basis des verwalteten Verzeichnisses sind
+		z.B.: (/home/pan/Dokumente/kua_fit4h) #Ort des git Ordners
+
+2. git add . -A
+		# . steht für das aktuelle Verzeichnis
+		# -A steht für alle geänderten, hinzugefügten, gelöschten Dateien
+
+3. git commit -am 'Was passiert ist'
+		# Bestätigung der Änderungen lokal
+
+4. git push origin master 
+		#Hochladen der neuen Version auf den Server
