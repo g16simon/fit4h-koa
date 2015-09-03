@@ -1,0 +1,8 @@
+Standard Befehle
+
+rm #löscht Dateien
+
+rm -rf
+		z.B.: rm -rf eup_fit2ah #löscht alle Dateien im Ordner und den Ordner
+		#-r rkursive: von hier an, alle Verzeichnisse 
+		#-f force: alles wird ohne Nachfrage gelöscht
